@@ -49,12 +49,12 @@ html{
     text-decoration: none;
     font-size: 2rem;
     font-weight: 600;
-    /*background-color: #99e2b4;*/
+    background-color: #99e2b4;
     color: #03045e;
     transition: all 0.3sec;
 }
 
-/*.navbar-link:hover,
+.navbar-link:hover,
 .navbar-link:active{
     padding: 1rem;
     border-radius: 1rem;
@@ -101,12 +101,11 @@ html{
         transition: all 0.3sec;
     }
 
-   /* .mobile-navbar-button:hover
+   .mobile-navbar-button:hover
     {
         color: #1976d2;
         color: #ccff33;
-    }*/
-
+    }
 
     .header
     {
@@ -542,11 +541,18 @@ html {
     }
   }
   
+
+  .navbar a{
+    background-color: #99e2b4;
+    padding: 1rem;
+    border-radius: 10px;
+  }
   .navbar a:hover,
   .navbar a.active {
-      background-color: #95d5b2;
+      background-color: #40916c;
       color: black;
       padding: 1rem;
       border-radius: 10px;
   }
+  
   
