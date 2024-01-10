@@ -182,6 +182,22 @@ html{
     }
 }
 
+
+.navbar a{
+  background-color: #99e2b4;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    background-color: #40916c;
+    color: black;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+
 /*
 ====================================================
             Heero code
@@ -542,17 +558,6 @@ html {
   }
   
 
-  .navbar a{
-    background-color: #99e2b4;
-    padding: 1rem;
-    border-radius: 10px;
-  }
-  .navbar a:hover,
-  .navbar a.active {
-      background-color: #40916c;
-      color: black;
-      padding: 1rem;
-      border-radius: 10px;
-  }
-  
+
+
   
